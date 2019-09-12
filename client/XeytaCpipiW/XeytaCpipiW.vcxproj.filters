@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{05a09754-8605-4cf2-a086-c664fe834847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net\packets">
+      <UniqueIdentifier>{33657dd3-2540-4010-a83c-0a68d6c8c836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\reporter">
+      <UniqueIdentifier>{15a20b2e-823a-43ba-b359-f74a1a166721}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enums\registry_entry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\PersistenceHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\RegistryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\SystemInfoService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="models\sysinfodef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\InternetService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\DesktopService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\GraphicsService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="models\errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\MouseService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\NetClientService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\NetServerService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\TrollService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\LoggingService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\ClipboardService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\mediators\GuiMediator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ConsoleReporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\core\Semaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\core\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\core\ThreadArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\PacketProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\core\Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\MemoryManagementService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\UuidService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse_shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\PersistenceService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\models\process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\ProcessService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\PersistenceHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\RegistryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\SystemInfoService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\InternetService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\DesktopService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\GraphicsService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\MouseService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\NetClientService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\NetServerService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\TrollService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\LoggingService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\ClipboardService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\mediators\GuiMediator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ConsoleReporter.cpp">
+      <Filter>Source Files\reporter</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\core\Semaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\core\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\core\ThreadArg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\PacketProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\core\Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\MemoryManagementService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\UuidService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\PersistenceService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\ProcessService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
